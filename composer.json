@@ -1,43 +1,43 @@
 {
-	"name" : "farazilu/salah-prayer-times-3",
-	"description" : "Muslim prayer time calculator",
-	"type" : "library",
-	"keywords" : [
+	"name": "farazilu/salah-prayer-times-3",
+	"description": "Muslim prayer time calculator",
+	"type": "craft-plugin",
+	"keywords": [
 		"salah",
 		"craft",
 		"cms",
 		"craftcms",
 		"craft-plugin"
 	],
-	"config" : {
-		"platform" : {
-			"php" : "7.3.0"
+	"config": {
+		"platform": {
+			"php": "7.3.0"
 		},
-		"optimize-autoloader" : true,
-		"sort-packages" : true
+		"optimize-autoloader": true,
+		"sort-packages": true
 	},
-	"require" : {
-		"craftcms/cms" : "^3.0.0"
+	"require": {
+		"craftcms/cms": "^3.0.0"
 	},
-	"autoload" : {
-		"psr-4" : {
+	"autoload": {
+		"psr-4": {
 			"farazilu\\salahtime3\\" : "core/"
 		}
 	},
-	"minimum-stability" : "stable",
-	"support" : {
-		"docs" : "https://github.com/farazilu/salah-prayer-times-3/blob/master/README.md",
-		"issues" : "https://github.com/farazilu/salah-prayer-times-3/issues"
+	"minimum-stability": "stable",
+	"support": {
+		"docs": "https://github.com/farazilu/salah-prayer-times-3/blob/master/README.md",
+		"issues": "https://github.com/farazilu/salah-prayer-times-3/issues"
 	},
-	"extra" : {
-		"name" : "salahtime3",
-		"handle" : "salahtime3",
-		"hasCpSettings" : false,
-		"hasCpSection" : true,
-		"changelogUrl" : "https://raw.githubusercontent.com/farazilu/salah-prayer-times-3/master/CHANGELOG.md",
-		"components" : {
-			"olivemenusService" : "farazilu\\salahtime3\\services\\SalahTime3Service"
+	"extra": {
+		"name": "salahtime3",
+		"handle": "salahtime3",
+		"hasCpSettings": false,
+		"hasCpSection": true,
+		"changelogUrl": "https://raw.githubusercontent.com/farazilu/salah-prayer-times-3/master/CHANGELOG.md",
+		"components": {
+			"olivemenusService": "farazilu\\salahtime3\\services\\SalahTime3Service"
 		},
-		"class" : "farazilu\\salahtime3\\SalahTime3"
+		"class": "farazilu\\salahtime3\\SalahTime3"
 	}
 }
