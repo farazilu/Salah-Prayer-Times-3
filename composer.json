@@ -36,7 +36,7 @@
 		"hasCpSection" : true,
 		"changelogUrl" : "https://raw.githubusercontent.com/farazilu/salah-prayer-times-3/master/CHANGELOG.md",
 		"components" : {
-			"olivemenusService" : "farazilu\\salahtime3\\services\\SalahTime3"
+			"olivemenusService" : "farazilu\\salahtime3\\services\\SalahTime3Service"
 		},
 		"class" : "farazilu\\salahtime3\\SalahTime3"
 	}
