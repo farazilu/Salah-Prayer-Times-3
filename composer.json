@@ -1,0 +1,19 @@
+{
+    "name": "farazilu/salah-prayer-times-3",
+    "description": "Muslim prayer time calculator",
+    "type": "library",
+    "keywords": [
+        "salah"
+    ],
+    "config": {
+        "platform": {
+            "php": "7.3.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    
+}
