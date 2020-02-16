@@ -3,7 +3,11 @@
 	"description" : "Muslim prayer time calculator",
 	"type" : "library",
 	"keywords" : [
-		"salah"
+		"salah",
+		"craft",
+		"cms",
+		"craftcms",
+		"craft-plugin"
 	],
 	"config" : {
 		"platform" : {
@@ -13,6 +17,27 @@
 		"sort-packages" : true
 	},
 	"require" : {
-		"php" : "^7.0"
+		"craftcms/cms" : "^3.0.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"farazilu\\salahtime3\\" : "core/"
+		}
+	},
+	"minimum-stability" : "stable",
+	"support" : {
+		"docs" : "https://github.com/farazilu/salah-prayer-times-3/blob/master/README.md",
+		"issues" : "https://github.com/farazilu/salah-prayer-times-3/issues"
+	},
+	"extra" : {
+		"name" : "salahtime3",
+		"handle" : "salahtime3",
+		"hasCpSettings" : false,
+		"hasCpSection" : true,
+		"changelogUrl" : "https://raw.githubusercontent.com/farazilu/salah-prayer-times-3/master/CHANGELOG.md",
+		"components" : {
+			"olivemenusService" : "farazilu\\salahtime3\\services\\SalahTime3"
+		},
+		"class" : "farazilu\\salahtime3\\SalahTime3"
 	}
 }
