@@ -12,6 +12,11 @@
         "optimize-autoloader": true,
         "sort-packages": true
     },
+    "autoload" : {
+		"psr-4" : {
+			"core\\" : "core/"
+		}
+	},
     "require": {
         "php": "^7.0"
     }    
