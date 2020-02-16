@@ -1,6 +1,0 @@
-<?php
-
-class SalahTime3
-{
-}
-?>
